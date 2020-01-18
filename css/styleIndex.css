@@ -1,0 +1,176 @@
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    min-width: 500px;
+}
+
+@media screen and (max-width: 480px) {
+  .sidebar{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .sidebar{
+      float: left;
+      background: #3F888F;
+      min-width: 200px;
+      width: 20%;
+      height: auto;
+      padding: 30px;
+  }
+
+  .sidebar-header a{
+    text-decoration: none;
+  }
+
+  .sidebar ul
+  {
+      float: left;
+      list-style-type: none;
+  }
+
+  .sidebar li a
+  {
+      float: left;
+      color: #000;
+      height: 40px;
+      font-size: 24px;
+      width: 100%;
+      text-decoration: none;
+  }
+
+  .sidebar ul li a {
+      display: block;
+  }
+
+  .sidebar ul li a:hover {
+      color: #3F888F;
+      background: #fff;
+  }
+
+  .sidebar li a.active
+  {
+      background-color: #f1f1f1;
+      color: rgb(0, 0, 0);
+  }
+
+  .sidebar li h2
+  {
+      float: left;
+      display: block;
+      color: #000;
+      text-decoration: none;
+
+  }
+}
+
+
+.footer_main {
+  float: left;
+    position: bottom;
+    width: 100%;
+    color: #black;
+    font-size: 0.7em;
+}
+
+.line_center {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px;
+}
+
+.line_sidebar {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .section_grid {
+      width: 176px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+@media screen and (min-width: 480px) {
+  .section_grid {
+      width: 176px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+@media screen and (min-width: 720px) {
+  .section_grid {
+      width: 211px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section_grid {
+      width: 282px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .section_grid {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+.invisible{
+  color: transparent;
+}
+
+.item_grid_green {
+  background-color: lightgreen;
+}
+.item_grid_orange {
+  background-color: orange;
+}
+.item_grid_red {
+  background-color: red;
+}
+
+
+
+.login-help{
+  font-size: 14px;
+}
+
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-btn {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+
+#content {
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    width: 100%;
+}
